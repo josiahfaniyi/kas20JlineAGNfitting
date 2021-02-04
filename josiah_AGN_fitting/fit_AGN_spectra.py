@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from astropy.io import fits
 from astropy.wcs import WCS
-#from lmfit.models import PowerLawModel, GaussianModel, VoigtModel, SkewedGaussianModel, SkewedVoigtModel
+from lmfit.models import PowerLawModel, GaussianModel, VoigtModel, SkewedGaussianModel, SkewedVoigtModel
 from scipy.signal import savgol_filter
 import fitting_functions as ff
 import argparse
